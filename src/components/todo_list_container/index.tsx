@@ -1,7 +1,6 @@
 import { todoStatuses } from '../../constants/todo-statuses';
 import { useTasks } from '../../reducer_context/reducer-context';
 import { ListRender } from '../todo_list_render';
-import { memo } from 'react';
 
 function ListContainer() {
 	const reducer = useTasks();

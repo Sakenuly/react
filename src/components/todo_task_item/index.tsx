@@ -10,7 +10,6 @@ import { useTasks } from '../../reducer_context/reducer-context';
 import { todoStatuses } from '../../constants/todo-statuses';
 import { ITaskItemProps } from '../../types/task-item-props';
 import { ActionType } from '../../types/actions';
-import { memo } from 'react';
 
 function TaskItem({ status, label, id }: ITaskItemProps) {
 	const defaultEditValue = false;
